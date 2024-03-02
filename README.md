@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # calculadora
 
 This README outlines the details of collaborating on this Ember application.
@@ -54,3 +55,7 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+=======
+# Calculadora-B-dica-con-EmberJS
+Se elabora una calculadora básica con «Ember JS», la cual puede; sumar, restar, multiplicar, dividir y limpiar.
+>>>>>>> e4c25291dda00884fe013e056c1826f5a26bd01a
