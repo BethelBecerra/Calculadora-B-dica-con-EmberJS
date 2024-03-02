@@ -1,0 +1,34 @@
+<div class="container">
+  <h1>Calculadora en EmberJs</h1>
+  <p>Mi Calculadora</p>
+  <input type="text" {{on "input" this.updateNumero1}} value={{this.numero1}} placeholder="Numero 1"/>
+  <input type="text" {{on "input" this.updateNumero2}} value={{this.numero2}} placeholder="Numero 2"/>
+
+  <div class="buttons">
+
+    <button type="button" {{action this.appendNumber 7}}>7</button>
+    <button type="button" {{action this.appendNumber 8}}>8</button>
+    <button type="button" {{action this.appendNumber 9}}>9</button>
+    <button type="button" {{action this.multiply}}>*</button>
+    
+    <button type="button" {{action this.appendNumber 4}}>4</button>
+    <button type="button" {{action this.appendNumber 5}}>5</button>
+    <button type="button" {{action this.appendNumber 6}}>6</button>
+    <button type="button" {{action this.subtract}}>-</button>
+    
+    
+    <button type="button" {{action this.appendNumber 1}}>1</button>
+    <button type="button" {{action this.appendNumber 2}}>2</button>
+
+    <button type="button" {{action this.appendNumber 3}}>3</button>
+    <button type="button" {{action this.divide}}>/</button>
+    <button type="button" {{action this.appendNumber 0}}>0</button>
+    <button type="button" {{action this.sum}}>+</button>
+    
+    <button type="button" {{action this.clearInput}}>C</button>
+    <button type="button" {{action this.calculate}}>=</button>
+  </div>
+  <div class="total">total: {{this.total}}</div>
+</div>
+
+{{yield}}
